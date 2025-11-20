@@ -1,0 +1,14 @@
+commands
+prgm6 - mpicc mpi_prgm6.c -o mpi_prgm6
+        mpirun -np 2 ./mpi_prgm6
+
+prgm7 - mpicc mpi_prgm7.c -o mpi_prgm7
+        mpirun -np 4 ./mpi_prgm7
+
+prgm8 - mpicc mpi_prgm8.c -o mpi_prgm8
+        mpirun -np 4 ./mpi_prgm8
+
+prgm9 - mpicc mpi_prgm9.c -o mpi_prgm9
+        mpirun -np 4 ./mpi_prgm9
+
+ 
